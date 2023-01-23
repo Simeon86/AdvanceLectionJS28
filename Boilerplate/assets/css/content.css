@@ -1,0 +1,95 @@
+section#video {
+	min-height: 450px;
+	background-color: #195663;
+	color: #fff;
+	padding: 120px 0;
+	box-sizing: border-box;
+}
+
+
+section#video .header {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+section#video .header a {
+	display: inline-block;
+}
+
+section#video .header a img {
+	width: 80px;
+}
+
+section#video .header h4 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+section#video .wrapper > p {
+	text-align: center;
+}
+
+/*Thumbnail*/
+#thumbnails {
+	background-color: #EAF5F7;
+	padding: 120px 0;
+}
+
+#thumbnails .nav-menu {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#thumbnails .nav-menu a {
+	display: inline-block;
+	padding: 10px;
+	background-color: #1D7E90;
+	color: #fff;
+	border-radius: 3px;
+	margin: 0 10px;
+	border: 1px solid transparent;
+	transition: 0.3s;
+}
+
+#thumbnails .nav-menu a.active {
+	border: 1px solid #1D7E90;
+	color: #1D7E90;
+	background-color: transparent;
+}
+
+#thumbnails .nav-content > div {
+	min-height: 450px;
+	display: none;
+}
+
+#thumbnails .nav-content > div.visible {
+	display: block;
+}
+
+#thumbnails .nav-content .slot .row {
+	margin-bottom: 30px ;
+}
+
+#thumbnails .nav-content .slot .info-panel {
+	background-color: #5CA5B3;
+	min-height: 250px;
+	display: table;
+	width: 100%;
+}
+
+#thumbnails .nav-content .slot .info-panel .centered {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#thumbnails .nav-content .slot .info-panel p {
+	color: #fff;
+	text-align: center;
+}
+
+#thumbnails .nav-content .slot .info-panel h2 {
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 15px;
+}
